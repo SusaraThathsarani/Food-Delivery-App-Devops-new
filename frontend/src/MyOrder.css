@@ -1,0 +1,59 @@
+/* Container */
+.p-6 {
+  padding: 24px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Heading */
+.text-2xl {
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+/* Order card */
+.border {
+  border: 1px solid #ddd;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.p-4 {
+  padding: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+/* Card hover effect */
+.border:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Text styling */
+p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #007bff;
+}
+
+strong {
+  color: #555;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
