@@ -14,5 +14,5 @@ variable "ami_id" {
 }
 
 variable "key_name" {
-  default = "food-delivery-key"
+  default = "food-delivery-key-v2"
 }
